@@ -273,7 +273,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="DEMENTED-Droid" revision="db42" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="DEMENTED-Droid" revision="jb42" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
