@@ -1,0 +1,11 @@
+
+<<<<|||DEMENTED|||>>>>
+
+<1>  repo init -u git@github.com:DEMENTED-Droid/DEMENTED.git -b db42
+<2>  . build/envsetup.sh
+<3>  lunch
+<4>  DEMENTED_toro_userdebug
+<5>  make -j4 otapackage
+<6>  #profit
+
+
