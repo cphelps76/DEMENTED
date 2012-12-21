@@ -1,5 +1,5 @@
 
-<<<<|||DEMENTED-Droid|||>>>>
+<<<< DEMENTED-Droid >>>>
 
 <1>  repo init -u git@github.com:DEMENTED-Droid/DEMENTED.git -b db42
 <2>  . build/envsetup.sh
@@ -8,4 +8,10 @@
 <5>  make -j4 otapackage
 <6>  #profit
 
+
+<<<< Devices Currently Supported >>>>
+
+Toro
+Maguro
+Mako
 
