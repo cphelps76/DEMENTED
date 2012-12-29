@@ -24,7 +24,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="DEMENTED-Droid" revision="db42" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="DEMENTED-Droid" revision="cm-10.1" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="DEMENTED-Droid" revision="jb-mr1" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
