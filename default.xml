@@ -265,6 +265,7 @@
   <project path="packages/apps/Chronus" name="packages_apps_Chronus" remote="DEMENTED-Droid" revision="jb42" />
   <project path="packages/apps/CMFileManager" name="packages_apps_FileManager" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="DEMENTED-Droid" revision="db42" />
+  <project path="packages/apps/DEMENTEDHome" name="packages_apps_DEMENTEDHome" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -272,7 +273,6 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.1_r1___" />
