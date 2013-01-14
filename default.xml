@@ -263,8 +263,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Chronus" name="packages_apps_Chronus" remote="DEMENTED-Droid" revision="db42" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_FileManager" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="DEMENTED-Droid" revision="db42" />
+  <project path="packages/apps/DEMENTEDFiles" name="packages_apps_FileManager" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/DEMENTEDHome" name="packages_apps_DEMENTEDHome" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="DEMENTED-Droid" revision="db42" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
