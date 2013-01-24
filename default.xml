@@ -350,7 +350,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="DEMENTED-Droid" revision="cm-10.1" />
-  <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED" remote="DEMENTED-Droid" revision="db42" />
+  <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED-Droid" remote="DEMENTED-Droid" revision="db42" />
   <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="DEMENTED-Droid" revision="jellybean" />
   <project path="vendor/samsung" name="vendor_samsung" remote="DEMENTED-Droid" revision="db42" />
 
