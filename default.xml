@@ -13,11 +13,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build_4.2" remote="DEMENTED-Droid" revision="db42" >
+  <project path="build" name="platform_build_4.2" remote="DEMENTED-Droid" revision="db42" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_android_bionic" remote="DEMENTED-Droid" revision="db42" >
+  <project path="bionic" name="platform_android_bionic" remote="DEMENTED-Droid" revision="db42" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
