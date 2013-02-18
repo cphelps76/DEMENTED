@@ -37,7 +37,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="DEMENTED-Droid" revision="mr1-staging" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="DEMENTED-Droid" revision="db42" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
@@ -361,7 +361,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="DEMENTED-Droid" revision="cm-10.1" />
   <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED-Droid" remote="DEMENTED-Droid" revision="db42" />
-  <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="DEMENTED-Droid" revision="jellybean" />
+  <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="DEMENTED-Droid" revision="db42" />
   <project path="vendor/samsung" name="vendor_samsung" remote="DEMENTED-Droid" revision="db42" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
