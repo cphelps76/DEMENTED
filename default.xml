@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="DEMENTED-Droid"
            fetch="git://github.com/DEMENTED-Droid/" />
-  <remote  name="davros-"
+  <remote  name="davros"
            fetch="https://github.com/davros-" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
