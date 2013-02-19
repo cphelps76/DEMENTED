@@ -8,8 +8,6 @@
            fetch="git://github.com/DEMENTED-Droid/" />
   <remote  name="davros"
            fetch="https://github.com/davros-" />
-  <remote  name="faux123"
-           fetch="https://github.com/faux123" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />  
@@ -253,7 +251,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="kernel/lge/mako" name="mako" remote="faux123" revision="enhanced_stock" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="DEMENTED-Droid" revision="db42" />
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
   <project path="libcore" name="platform/libcore" />
