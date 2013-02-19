@@ -8,6 +8,9 @@
            fetch="git://github.com/DEMENTED-Droid/" />
   <remote  name="davros"
            fetch="https://github.com/davros-" />
+  <remote  name="aokp"
+           fetch="https://github.com/AOKP/"
+           review="gerrit.sudoservers.com" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />  
@@ -38,7 +41,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="DEMENTED-Droid" revision="db42" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
@@ -252,6 +254,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="kernel/lge/mako" name="faux123/mako" remote="aokp" revision="enhanced_stock" />
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
   <project path="libcore" name="platform/libcore" />
