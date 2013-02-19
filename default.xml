@@ -9,7 +9,7 @@
   <remote  name="davros"
            fetch="https://github.com/davros-" />
   <remote  name="faux123"
-           fetch="https://github.com/faux123/mako" />
+           fetch="https://github.com/faux123" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />  
