@@ -39,7 +39,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="DEMENTED-Droid" revision="db42" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device-samsung-maguro" remote="DEMENTED-Droid" revision="db42" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="DEMENTED-Droid" revision="db42" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="DEMENTED-Droid" revision="db42" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
