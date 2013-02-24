@@ -214,7 +214,7 @@
   <project path="frameworks/ex" name="platform_frameworks_ex" remote="DEMENTED-Droid" revision="db42" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="DEMENTED-Droid" revision="db42" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -231,7 +231,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="DEMENTED-Droid" revision="db42" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="refs/tags/android-4.2.1_r1.2" />
