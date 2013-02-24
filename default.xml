@@ -18,6 +18,8 @@
   <project path="build" name="platform_build_4.2" remote="DEMENTED-Droid" revision="db42" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <!-- Here We Go -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform_android_bionic" remote="DEMENTED-Droid" revision="db42" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -26,6 +28,8 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="DEMENTED-Droid" revision="db42" />
   <project path="development" name="platform/development" />
+
+  <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="DEMENTED-Droid" revision="jb-mr1" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" revision="refs/tags/android-4.2.1_r1.2"/>
   <project path="device/common" name="device/common" revision="refs/tags/android-4.2.1_r1.2"/>
@@ -45,6 +49,8 @@
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="DEMENTED-Droid" revision="db42" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
+
+  <!-- External Packages -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -204,6 +210,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
+
+  <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="DEMENTED-Droid" revision="db42" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="DEMENTED-Droid" revision="db42"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
@@ -228,7 +236,9 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="gdk" name="platform/gdk" />
+
+
+  <!-- Hardware Packages -->
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="DEMENTED-Droid" revision="db42" />
@@ -251,12 +261,20 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="refs/tags/android-4.2.1_r1.2" />
+
+  <!-- Kernel Sources -->
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="DEMENTED-Droid" revision="db42" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="DEMENTED-Droid" revision="db42" />
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
+
+  <!-- Things and Stuff -->
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
+  <project path="pdk" name="platform/pdk" />
+  <project path="gdk" name="platform/gdk" />
+
+  <!-- Apps -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="DEMENTED-Droid" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="DEMENTED-Droid" revision="cm-10.1" />
@@ -321,7 +339,9 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
-  <project path="pdk" name="platform/pdk" />
+
+
+  <!-- Prebuilts -->
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -351,6 +371,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
+
+  <!-- System Packages -->
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="android_system_core" remote="DEMENTED-Droid" revision="db42" />
   <project path="system/extras" name="platform/system/extras" />
@@ -360,11 +382,12 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+
+  <!-- Vendor Packages -->
   <project path="vendor/asus" name="vendor_asus" remote="DEMENTED-Droid" revision="jb-mr1" />
   <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED-Droid" remote="DEMENTED-Droid" revision="db42" />
   <project path="vendor/lge" name="vendor_lge" remote="DEMENTED-Droid" revision="db42" />
   <project path="vendor/samsung" name="vendor_samsung" remote="DEMENTED-Droid" revision="db42" />
-
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
