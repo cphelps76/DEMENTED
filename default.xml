@@ -51,7 +51,7 @@
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
 
   <!-- External Packages -->
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -273,6 +273,8 @@
   <project path="ndk" name="platform/ndk" />
   <project path="pdk" name="platform/pdk" />
   <project path="gdk" name="platform/gdk" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="sdk" name="platform/sdk" />
 
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="DEMENTED-Droid" revision="cm-10.1" />
@@ -370,7 +372,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="platform/sdk" />
+
 
   <!-- System Packages -->
   <project path="system/bluetooth" name="platform/system/bluetooth" />
