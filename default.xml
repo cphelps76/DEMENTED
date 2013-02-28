@@ -268,7 +268,7 @@
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="cphelps76" revision="db42" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="pdk" name="platform/pdk" />
