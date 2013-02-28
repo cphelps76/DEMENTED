@@ -26,7 +26,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform_dalvik" remote="cphelps76" revision="db42" />
+  <project path="dalvik" name="android_dalvik" remote="cphelps76" revision="db42" />
   <project path="development" name="platform/development" />
 
   <!-- Devices -->
