@@ -387,7 +387,7 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/asus" name="vendor_asus" remote="cphelps76" revision="jb-mr1" />
-  <project path="vendor/cphelps76" name="vendor_DEMENTED-Droid" remote="cphelps76" revision="db42" />
+  <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED-Droid" remote="cphelps76" revision="db42" />
   <project path="vendor/lge" name="vendor_lge" remote="cphelps76" revision="db42" />
   <project path="vendor/samsung" name="vendor_samsung" remote="cphelps76" revision="db42" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
