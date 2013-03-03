@@ -289,7 +289,7 @@
   <project path="packages/apps/Chronus" name="packages_apps_Chronus" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDBeats" name="packages_apps_DEMENTEDBeats" remote="cphelps76" revision="db42" />
-  <project path="packages/apps/cphelps76" name="packages_apps_DEMENTED-Droid" remote="cphelps76" revision="db42" />
+  <project path="packages/apps/DEMENTEDDroid" name="packages_apps_DEMENTED-Droid" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDFiles" name="packages_apps_DEMENTEDFiles" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDHome" name="packages_apps_DEMENTEDHome" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cphelps76" revision="db42" />
