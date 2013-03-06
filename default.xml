@@ -279,8 +279,8 @@
   <project path="sdk" name="platform/sdk" />
 
   <!-- Superuser -->
-  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
 
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cphelps76" revision="cm-10.1" />
