@@ -8,6 +8,8 @@
            fetch="git://github.com/cphelps76/" />
   <remote  name="davros"
            fetch="https://github.com/davros-" />
+  <remote  name="github"
+           fetch="git://github.com/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />  
