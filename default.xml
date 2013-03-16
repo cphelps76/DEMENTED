@@ -168,7 +168,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/oprofile" name="platform_external_oprofile" remote="cphelps76" revision="db42" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
