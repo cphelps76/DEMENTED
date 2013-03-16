@@ -291,6 +291,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cphelps76" revision="db42" />
+  <project path="packages/apps/DCWallpapers" name="packages_apps_DCWallpapers" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDBeats" name="packages_apps_DEMENTEDBeats" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDDroid" name="packages_apps_DEMENTED-Droid" remote="cphelps76" revision="db42" />
   <project path="packages/apps/DEMENTEDFiles" name="packages_apps_DEMENTEDFiles" remote="cphelps76" revision="db42" />
