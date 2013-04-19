@@ -31,7 +31,6 @@
 
   <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="cphelps76" revision="jb-mr1" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -46,9 +45,7 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cphelps76" revision="db42" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="cphelps76" revision="db42" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="cphelps76" revision="db42" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cphelps76" revision="db42" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
 
   <!-- External Packages -->
 
