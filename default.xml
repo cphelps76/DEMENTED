@@ -267,7 +267,7 @@
   <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="cphelps76" revision="db42" />
   <project path="kernel/samsung/tuna" name="elite_kernel_tuna" remote="cphelps76" revision="db42" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cphelps76" revision="db42" />
-  <project path="kernel/samsung/n8013" name="DEMENTED_kernel_n8013" remote="cphelps76" revision="db42" />
+  <project path="kernel/samsung/smdk4412" name="kernel_samsung_n8013" remote="cphelps76" revision="db42" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="cphelps76" revision="db42" />
