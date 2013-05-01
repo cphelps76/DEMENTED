@@ -27,7 +27,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="cphelps76" revision="db42" />
-  <project path="development" name="platform/development" />
+  <project path="development" name="android_development" remote="cphelps76" revision="db42" />
 
   <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="cphelps76" revision="db42" />
