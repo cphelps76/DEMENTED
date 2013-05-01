@@ -296,6 +296,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="cphelps76" revision="db42" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
