@@ -38,10 +38,7 @@
   <project path="device/generic/x86" name="device_generic_x86" remote="cphelps76" revision="db42" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="cphelps76" revision="db42" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cphelps76" revision="db42" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="cphelps76" revision="db42" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="cphelps76" revision="db42" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cphelps76" revision="db42" />
 
@@ -256,10 +253,8 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cphelps76" revision="db42" />
   <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="cphelps76" revision="db42" />
   <project path="kernel/samsung/tuna" name="elite_kernel_tuna" remote="cphelps76" revision="db42" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cphelps76" revision="db42" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="cphelps76" revision="db42" />
@@ -387,7 +382,6 @@
   <!-- Vendor Packages -->
   <project path="vendor/asus" name="vendor_asus" remote="cphelps76" revision="jb-mr1" />
   <project path="vendor/DEMENTED-Droid" name="vendor_DEMENTED-Droid" remote="cphelps76" revision="db42" />
-  <project path="vendor/lge" name="vendor_lge" remote="cphelps76" revision="db42" />
   <project path="vendor/samsung" name="vendor_samsung" remote="cphelps76" revision="db42" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
