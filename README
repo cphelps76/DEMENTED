@@ -1,7 +1,7 @@
 
 <<<< DEMENTED-Droid >>>>
 
-<1>  repo init -u git://github.com/cphelps76/DEMENTED.git -b db42
+<1>  repo init -u git://github.com/cphelps76/DEMENTED.git -b db42-a
 <2>  repo sync
 <3>  prebuilts/misc/linux-x86/ccache/ccache -M 50G
 <4>  . build/envsetup.sh
@@ -12,8 +12,5 @@
 
 <<<< Devices Currently Supported >>>>
 
-{x} Toro
-{x} Maguro
-{x} Mako
-{x} Grouper
-{x} Manta
+{x} S4 Att
+
