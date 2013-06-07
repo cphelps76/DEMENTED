@@ -20,10 +20,10 @@
      method 3:
 
      . build/envsetup.sh
-      lunch
+     lunch
      make -j8 otapackage (compiles without Opticharger and Squisher)
 
-<8>  #profit
+<5>  #profit
 
 <<<< Devices Currently Supported >>>>
 
