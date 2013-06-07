@@ -2,15 +2,33 @@
 <<<< DEMENTED-Droid >>>>
 
 <1>  repo init -u git://github.com/cphelps76/DEMENTED.git -b db42-a
+
 <2>  repo sync
+
 <3>  prebuilts/misc/linux-x86/ccache/ccache -M 50G
-<4>  . build/envsetup.sh
-<5>  lunch
-<6>  choose what you want to build
-<7>  make -j4 otapackage
+
+<4>  method 1:
+
+     . build/envsetup.sh
+     lunch
+     make demented -j4 (compiles with Opticharger and Squisher)
+ 
+     method 2:
+
+     . build/envsetup.sh && brunch jflteatt -j8 (combines all commmands from above)
+
+     method 3:
+
+     . build/envsetup.sh
+      lunch
+     make -j8 otapackage (compiles without Opticharger and Squisher)
+
 <8>  #profit
 
 <<<< Devices Currently Supported >>>>
 
-{x} S4 Att
-
+{x} jflteatt
+{x} toro
+{x} maguro
+{x} mako
+{x} grouper
