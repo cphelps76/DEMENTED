@@ -29,7 +29,7 @@
 
   <!-- Here We Go -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_android_bionic" remote="cphelps76" revision="db42" />
+  <project path="bionic" name="platform_android_bionic" remote="cphelps76" revision="db42-a" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
@@ -38,7 +38,7 @@
   <project path="development" name="android_development" remote="cphelps76" revision="db42-a" />
 
   <!-- Devices -->
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="cphelps76" revision="db42" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="cphelps76" revision="db42-a" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a" name="device_generic_armv7-a" remote="cphelps76" revision="db42" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="cphelps76" revision="db42" />
