@@ -13,9 +13,9 @@
      lunch
      make demented -j4 (compiles with Opticharger and Squisher)
  
-     method 2:
+     method 2*:
 
-     . build/envsetup.sh && brunch jflteatt -j8 (combines all commmands from above)
+     . build/envsetup.sh && brunch jflteatt -j8 (combines all commmands from above, *preferred method)
 
      method 3:
 
@@ -28,6 +28,8 @@
 <<<< Devices Currently Supported >>>>
 
 {x} jflteatt
+{x} jfltetmo
+{x} jfltevzw
 {x} toro
 {x} maguro
 {x} mako
