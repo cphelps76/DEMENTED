@@ -75,7 +75,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" remote="cphelps76" revision="db42" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cphelps76" revision="db42-a" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cr" revision="jb2" />
@@ -301,7 +301,7 @@
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cphelps76" revision="db42" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cphelps76" revision="db42" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cphelps76" revision="db42-a" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="cphelps76" revision="db42" />
@@ -325,7 +325,7 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="cphelps76" revision="db42" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="cphelps76" revision="db42" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="cphelps76" revision="db42" />
