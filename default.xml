@@ -283,7 +283,7 @@
   <!-- Kernel Sources -->
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cphelps76" revision="db42" />
   <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="cphelps76" revision="db42" />
-  <project path="kernel/samsung/jf" name="DEMENTED_kernel_jf" remote="cphelps76" revision="db42" />
+  <project path="kernel/samsung/jf" name="elite_kernel_jf" remote="cphelps76" revision="db42" />
   <project path="kernel/samsung/tuna" name="elite_kernel_tuna" remote="cphelps76" revision="db42" />
 
   <!-- Things and Stuff -->
