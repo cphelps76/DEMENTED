@@ -262,7 +262,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cr" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cphelps76" revision="db42" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.1_old" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="gh" revision="cm-10.1_old" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
