@@ -9,9 +9,12 @@
            fetch="git://github.com/cphelps76/" 
            revision="dd43" />
 
-  <remote name="cm"
+  <remote  name="cm"
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
            
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
@@ -410,6 +413,6 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="cp" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
 
 </manifest>
