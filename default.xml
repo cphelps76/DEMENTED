@@ -72,13 +72,13 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.2" /> 
+  <project path="external/busybox" name="/android_external_busybox" remote="cm" revision="cm-10.2" /> 
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -231,7 +231,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk"  remote="cm" revision="cm-10.2" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk"  remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -253,26 +253,26 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
   <!-- Hardware Packages -->
-  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.2" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/akm" name="/android_hardware_akm" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="hardware/broadcom/libbt" name="/android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="hardware/broadcom/wlan" name="/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/cm" name="/android_hardware_cm" remote="cm" revision="cm-10.2" />
+  <project path="hardware/invensense" name="/android_hardware_invensense" groups="invensense" remote="cm" revision="cm-10.2" />
+  <project path="hardware/libhardware" name="/android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="hardware/libhardware_legacy" name="/android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="hardware/msm7k" name="/android_hardware_msm7k" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/audio" name="/android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/audio-caf" name="/android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/bt" name="/android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display" name="/android_hardware_qcom_display" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display-caf" name="/android_hardware_qcom_display-caf" groups="caf" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/keymaster" name="/android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/media" name="/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/media-caf" name="/android_hardware_qcom_media-caf" groups="caf" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/msm8960" name="/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/power" name="/android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/sensors" name="/android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/wlan" name="/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -392,7 +392,7 @@
 
   <!-- System and Tool Packages -->
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="system/core" name="/android_system_core" groups="pdk" remote="cm" revision="cm-10.2" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
