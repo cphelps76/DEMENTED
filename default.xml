@@ -6,8 +6,7 @@
            review="https://android-review.googlesource.com/"/> 
 
   <remote  name="cp"
-           fetch="git://github.com/cphelps76/" 
-           revision="dd43" />
+           fetch="git://github.com/cphelps76/" />
 
   <remote  name="cm"
            fetch="git://github.com/"
@@ -26,11 +25,11 @@
 
   <!-- Here We Go -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="cp" />
+  <project path="bionic" name="android_bionic" remote="cp" revision="dd43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="cp" />
+  <project path="dalvik" name="android_dalvik" remote="cp" revision="dd43" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -53,10 +52,10 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
 
   <!-- DEMENTED Devices -->
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cp" />
-  <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="cp" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="cp" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="cp" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cp" revision="dd43" />
+  <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="cp" revision="dd43" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="cp" revision="dd43" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="cp" revision="dd43" />
 
   <!-- External Packages -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -212,7 +211,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="external_v8" remote="cp" />
+  <project path="external/v8" name="external_v8" remote="cp" revision="dd43" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
@@ -226,7 +225,7 @@
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="cp" />
+  <project path="frameworks/base" name="frameworks_base" remote="cp" revision="dd43" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -281,10 +280,10 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="DEMENTEDElite_kernel_jf" remote="cp" />
+  <project path="kernel/samsung/jf" name="DEMENTEDElite_kernel_jf" remote="cp" revision="dd43" />
 
   <!-- Things and Stuff -->
-  <project path="libcore" name="android_libcore" remote="cp" />
+  <project path="libcore" name="android_libcore" remote="cp" revision="dd43" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="ndk" name="platform/ndk" />
@@ -322,7 +321,7 @@
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cp" revision="dd43" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -385,7 +384,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="cp" />
+  <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="cp" revision="dd43" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
@@ -398,7 +397,7 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
-  <project path="system/security" name="system_security" remote="cp" />
+  <project path="system/security" name="system_security" remote="cp" revision="dd43" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -412,7 +411,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" />
+  <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" revision="dd43" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
 
 </manifest>
