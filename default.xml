@@ -5,12 +5,11 @@
            fetch="https://android.googlesource.com/" 
            review="https://android-review.googlesource.com/"/> 
 
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod" />
+
   <remote  name="cp"
            fetch="git://github.com/cphelps76/" />
-
-  <remote  name="cm"
-           fetch="git://github.com/"
-           review="review.cyanogenmod.com" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -19,7 +18,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="cp" >
+  <project path="build" name="android_build" remote="cp" revision="dd43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
