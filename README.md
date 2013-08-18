@@ -1,11 +1,11 @@
 
-DEMENTED
-========
+DEMENTED Droid
+==============
 
-DEMENTED AOSP 4.2.2, Android Seen Through Darker Eyes
+DEMENTED AOSP 4.3
 
 Sync and Build:
-===============
+---------------
 
 In terminal enter:
 
@@ -14,8 +14,8 @@ In terminal enter:
     {x}   . build/envsetup.sh && brunch "device" -j8
 
 Devices Currently Supported:
-============================
+----------------------------
 
-This list is always subject to change as new devices are added and old ones are removed:
+This list is always subject to change:
 
     {x}   jflteatt
