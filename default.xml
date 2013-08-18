@@ -281,7 +281,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
   <!-- Kernel Sources -->
-  <project path="kernel/samsung/jf" name="DEMENTED_kernel_jf" remote="cp" />
+  <project path="kernel/samsung/jf" name="DEMENTEDElite_kernel_jf" remote="cp" />
 
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="cp" />
