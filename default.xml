@@ -302,6 +302,10 @@
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DEMENTEDElite_kernel_jf" remote="cp" revision="dd43" />
 
+  <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="cp" revision="dd43" />
+  <project path="external/koush/Widgets" name="koush_Widgets" remote="cp" revision="dd43" />
+
   <!-- Things and Stuff -->
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.2" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
