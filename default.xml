@@ -23,11 +23,11 @@
   </project>
 
   <!-- Here We Go -->
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="abi/cpp" name="android_abi_cpp" remote="cm" revision="cm-10.2" />
   <project path="bionic" name="android_bionic" remote="cp" revision="dd43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="dalvik" name="android_dalvik" remote="cp" revision="dd43" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -48,7 +48,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" />
 
   <!-- DEMENTED Devices -->
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cp" revision="dd43" />
