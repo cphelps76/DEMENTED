@@ -433,7 +433,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" revision="dd43" />
+  <project path="vendor/DEMENTED" name="vendor_DEMENTED" remote="cp" revision="dd43" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
 
 </manifest>
