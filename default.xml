@@ -53,6 +53,7 @@
   <!-- DEMENTED Devices -->
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cp" revision="dd43" />
   <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="cp" revision="dd43" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="cp" revision="dd43" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="cp" revision="dd43" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="cp" revision="dd43" />
 
