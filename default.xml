@@ -27,7 +27,7 @@
   <project path="bionic" name="android_bionic" remote="cp" revision="dd43" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cp" revision="dd43" />
   <project path="dalvik" name="android_dalvik" remote="cp" revision="dd43" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
