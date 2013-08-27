@@ -328,7 +328,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cp" revision="dd43" />
   <project path="packages/apps/DEMENTEDDroid" name="packages_apps_DEMENTED-Droid" remote="cp" revision="dd43" />
   <project path="packages/apps/DEMENTEDFiles" name="packages_apps_DEMENTEDFiles" remote="cp" revision="dd43" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="cp" revision="dd43" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cp" revision="dd43" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="cp" revision="dd43" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
