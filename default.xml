@@ -286,8 +286,8 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="DEMENTED/koush_Superuser" remote="cp" revision="dd-master" />
-  <project path="external/koush/Widgets" name="DEMENTED/koush_Widgets" remote="cp" revision="dd-master" />
+  <project path="external/koush/Superuser" name="cphelps76/koush_Superuser" remote="cp" revision="dd-master" />
+  <project path="external/koush/Widgets" name="cphelps76/koush_Widgets" remote="cp" revision="dd-master" />
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
