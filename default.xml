@@ -7,7 +7,7 @@
 
   <remote  name="cp"
            fetch="https://github.com/"
-           sync-j="16" />
+           sync-j="8" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
@@ -18,7 +18,7 @@
 
   <default revision="master"
            remote="aosp"
-           sync-j="16" />
+           sync-j="8" />
 
   <project path="build" name="cphelps76/android_build" remote="cp" revision="dd-master" >
     <copyfile src="core/root.mk" dest="Makefile" />
