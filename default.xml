@@ -49,6 +49,10 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" remote="cm" revision="cm-10.2" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" remote="cm" revision="cm-10.2" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/n8013" name="cphelps76/device_samsung_n8013" remote="cp" revision="n8013" />
+  <project path="device/samsung/n80xx-common" name="cphelps76/samsung_n80xx-common" remote="cp" revision="n8013" />
+  <project path="device/samsung/smdk4412-common" name="cphelps76/samsung_smdk4412-common" remote="cp" revision="n8013" />
+  <project path="kernel/samsung/n8013" name="cphelps76/DEMENTED_kernel_n8013" remote="cp" revision="n8013" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-10.2" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" remote="cm" revision="cm-10.2" />
@@ -297,6 +301,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" />
+  <project path="hardware/samsung" name="cphelps76/hardware_samsung" remote="cp" revision="n8013" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
@@ -336,6 +341,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Settings" name="cphelps76/packages_apps_Settings" remote="cp" revision="n8013" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.2" />
