@@ -10,7 +10,7 @@
            sync-j="8" />
 
   <remote  name="tm"
-           fetch="https://github.com/" />
+           fetch="https://github.com/TheMuppets/" />
            
   <remote  name="cm"
            fetch="https://github.com/"
@@ -423,7 +423,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/demented" name="cphelps76/vendor_DEMENTED" remote="cp" revision="n8013" />
+  <project path="vendor/DEMENTED" name="cphelps76/vendor_DEMENTED" remote="cp" revision="n8013" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
