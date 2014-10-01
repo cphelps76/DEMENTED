@@ -8,6 +8,8 @@
                fetch="https://github.com/Matricom/" />
       <remote  name="cp"
                fetch="https://github.com/cphelps76" />
+      <remote  name="tg"
+               fetch="https://github.com/TEAM-Gummy" />
 
       <default revision="refs/tags/android-4.4.4_r2"
                remote="aosp"
@@ -467,5 +469,9 @@
       <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="matricom" revision="master" groups="notdefault,private" />
       <project path="vendor/widevine" name="vendor_widevine" remote="matricom" revision="kitkat" groups="notdefault,private" />
       <project path="platform_manifest" name="platform_manifest" remote="matricom" revision="kitkat" />
+
+      <!-- Koush Superuser -->
+      <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="kk4.4" />
+      <project path="external/koush/Widgets" name="koush_Widgets" remote="tg" revision="kk4.4" />
 
 </manifest>
