@@ -383,8 +383,8 @@
       <project path="vendor/broadcom" name="vendor_broadcom" remote="matricom" revision="jellybean" groups="private" />
       <project path="vendor/google" name="vendor_proprietary_google" remote="matricom" revision="jellybean" groups="private" />
       <project path="vendor/clients" name="vendor_proprietary_clients" remote="matricom" revision="jellybean" groups="private" />
-      <project path="vendor/matricom" name="vendor_matricom" remote="matricom" revision="jellybean" />
-      <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="matricom" revision="master" groups="private" />
+      <project path="vendor/matricom" name="vendor_matricom" remote="cp" revision="jellybean" />
+      <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="cp" revision="master" groups="private" />
       <project path="vendor/widevine" name="vendor_widevine" remote="matricom" revision="jellybean" groups="private" />
 
       <project path="platform_manifest" name="platform_manifest" remote="matricom" revision="jellybean" />
