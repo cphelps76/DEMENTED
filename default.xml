@@ -468,7 +468,7 @@
       <project path="vendor/matricom" name="vendor_matricom" remote="cp" revision="kitkat" />
       <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="matricom" revision="master" groups="notdefault,private" />
       <project path="vendor/widevine" name="vendor_widevine" remote="matricom" revision="kitkat" groups="notdefault,private" />
-      <project path="platform_manifest" name="platform_manifest" remote="matricom" revision="kitkat" />
+      <project path="platform_manifest" name="DEMENTED_manifest" remote="cp" revision="mxq" />
 
       <!-- Koush Superuser -->
       <project path="external/koush/Superuser" name="koush_Superuser" remote="tg" revision="kk4.4" />
