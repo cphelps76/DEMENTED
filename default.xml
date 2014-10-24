@@ -466,7 +466,7 @@
       <project path="vendor/broadcom" name="vendor_broadcom" remote="matricom" revision="kitkat" groups="notdefault,private" />
       <project path="vendor/google" name="vendor_proprietary_google" remote="matricom" revision="kitkat" groups="private" />
       <project path="vendor/matricom" name="vendor_matricom" remote="cp" revision="kitkat" />
-      <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="matricom" revision="master" groups="notdefault,private" />
+      <project path="vendor/matricom-priv" name="vendor_matricom-priv" remote="cp" revision="kitkat" groups="notdefault,private" />
       <project path="vendor/widevine" name="vendor_widevine" remote="matricom" revision="kitkat" groups="notdefault,private" />
       <project path="platform_manifest" name="DEMENTED_manifest" remote="cp" revision="mxq" />
 
