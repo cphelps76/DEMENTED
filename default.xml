@@ -10,15 +10,18 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="dd"
+           fetch="https://github.com/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="16" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <project path="build" name="cphelps76/android_build" remote="dd" revision="lp5.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -590,6 +593,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="cphelps76/vendor_DEMENTED" remote="dd" revision="lp5.1" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
