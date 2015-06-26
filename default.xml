@@ -13,6 +13,9 @@
   <remote  name="dd"
            fetch="https://github.com/" />
 
+  <remote  name="tm"
+           fetch="https://github.com/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -25,7 +28,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="manifest" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -57,6 +60,12 @@
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+  <project path="device/oppo/common" name="Cyanogenmod/android_device_oppo_common" />
+  <project path="device/oppo/find7-common" name="Cyanogenmod/android_device_oppo_find7-common" />
+  <project path="device/oppo/find7" name="cphelps76/android_device_oppo_find7" remote="dd" revision="lp5.1" />
+  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" />
+  <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" />
+  <project path="kernel/oneplus/msm8974" name="Cyanogenmod/android_kernel_oneplus_msm8974" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
@@ -593,6 +602,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="cphelps76/vendor_DEMENTED" remote="dd" revision="lp5.1" />
+  <project path="vendor/demented" name="cphelps76/vendor_DEMENTED" remote="dd" revision="lp5.1" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="tm" revision="cm-12.1" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="tm" revision="cm-12.1" />
 </manifest>
