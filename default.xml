@@ -61,7 +61,7 @@
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="device/oppo/common" name="Cyanogenmod/android_device_oppo_common" />
-  <project path="device/oppo/find7-common" name="Cyanogenmod/android_device_oppo_find7-common" />
+  <project path="device/oppo/find7-common" name="cphelps76/android_device_oppo_find7-common" remote="dd" revision="lp5.1" />
   <project path="device/oppo/find7" name="cphelps76/android_device_oppo_find7" remote="dd" revision="lp5.1" />
   <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" />
   <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" />
