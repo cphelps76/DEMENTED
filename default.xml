@@ -10,6 +10,12 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="dd"
+           fetch="https://github.com/" />
+
+  <remote  name="tm"
+           fetch="https://github.com/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -18,17 +24,22 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="cphelps76/android_build" remote="dd" revision="mm6.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+
+  <project path="manifest" name="cphelps76/DEMENTED_manifest" remote="dd" revision="mm6.0" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/oppo/common" name="Cyanogenmod/android_device_oppo_common" />
+  <project path="device/oppo/find7-common" name="cphelps76/android_device_oppo_find7-common" remote="dd" revision="mm6.0" />
+  <project path="device/oppo/find7" name="cphelps76/android_device_oppo_find7" remote="dd" revision="mm6.0" />
+  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" />
+  <project path="device/qcom/common" name="Cyanogenmod/android_device_qcom_common" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -37,6 +48,7 @@
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
+  <project path="kernel/oneplus/msm8974" name="Cyanogenmod/android_kernel_oneplus_msm8974" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
@@ -548,4 +560,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+  <project path="vendor/demented" name="cphelps76/vendor_DEMENTED" remote="dd" revision="mm6.0" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="tm" revision="cm-13.0" />
 </manifest>
