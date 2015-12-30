@@ -2,7 +2,7 @@
 DEMENTED
 ========
 
-DEMENTED AOSP 5.1
+DEMENTED AOSP 6.0
 
 Sync and Build:
 ---------------
