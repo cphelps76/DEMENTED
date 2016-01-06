@@ -349,7 +349,7 @@
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />android_vendor_qcom_opensource_dataservices
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
@@ -562,6 +562,5 @@
 <!-- END AOSP -->
 
   <project path="vendor/demented" name="cphelps76/vendor_DEMENTED" remote="dd" revision="mm6.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="Cyanogenmod/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="tm" revision="cm-13.0" />
 </manifest>
