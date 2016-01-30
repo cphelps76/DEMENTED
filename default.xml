@@ -35,6 +35,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/asus/flo" name="cphelps76/device_asus_flo" remote="dd" revision="mm6.0" />
   <project path="device/oppo/common" name="Cyanogenmod/android_device_oppo_common" />
   <project path="device/oppo/find7-common" name="cphelps76/android_device_oppo_find7-common" remote="dd" revision="mm6.0" />
   <project path="device/oppo/find7" name="cphelps76/android_device_oppo_find7" remote="dd" revision="mm6.0" />
@@ -48,6 +49,7 @@
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/qcom/sepolicy" name="cphelps76/device_qcom_sepolicy" remote="dd" revision="mm6.0" />
+  <project path="kernel/google/msm" name="Cyanogenmod/android_kernel_google_msm" />
   <project path="kernel/oppo/msm8974" name="Cyanogenmod/android_kernel_oppo_msm8974" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
@@ -126,6 +128,7 @@
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
@@ -563,5 +566,6 @@
 <!-- END AOSP -->
 
   <project path="vendor/demented" name="cphelps76/vendor_DEMENTED" remote="dd" revision="mm6.0" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="tm" revision="cm-13.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="tm" revision="cm-13.0" />
 </manifest>
