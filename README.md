@@ -1,6 +1,4 @@
-
-DEMENTED
-========
+![demented](https://cloud.githubusercontent.com/assets/2730592/15449450/c0d25a0e-1f43-11e6-9c5f-113eec62807f.png)
 
 DEMENTED AOSP 6.0
 
