@@ -490,7 +490,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-13.0" />
-  <project path="vendor/asus" name="vendor_DEMENTED" remote="cp" revision="nexus-usb" />
+  <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" revision="nexus-usb" />
   <project path="kernel/google/msm" name="msm-marshmallow-tm-usbhost-charge" remote="cp" revision="nexus-usb" />
 
 </manifest>
