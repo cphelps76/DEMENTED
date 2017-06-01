@@ -489,6 +489,6 @@
 
   <project path="vendor/asus" name="vendor_asus" remote="cp" revision="nexus-usb" />
   <project path="vendor/demented" name="vendor_DEMENTED" remote="cp" revision="nexus-usb" />
-  <project path="kernel/google/msm" name="kernel_google_msm" remote="cp" revision="nexus-usb" />
+  <project path="kernel/google/msm" name="msm-marshmallow-tm-usbhost-charge" remote="cp" revision="nexus-usb" />
 
 </manifest>
