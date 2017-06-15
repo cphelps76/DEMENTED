@@ -51,7 +51,7 @@
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/qcom/sepolicy" name="cphelps76/device_qcom_sepolicy" remote="dd" revision="mm6.0" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
-  <project path="kernel/google/msm" name="Cyanogenmod/android_kernel_google_msm" />
+  <project path="kernel/google/msm" name="cphelps76/android_kernel_google_msm" remote="dd" revision="mm6.0" />
   <project path="kernel/oppo/msm8974" name="Cyanogenmod/android_kernel_oppo_msm8974" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
